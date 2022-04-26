@@ -1,0 +1,35 @@
+h1{
+  text-align: center;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.product-card {
+  /*padding: 2%;*/
+  /*flex-grow: 1;*/
+  /*flex-basis: 16%;*/
+  width: 25%;
+  /*border: black 1px solid;*/
+  display: flex; /* so child elements can use flexbox stuff too! */
+  flex-direction: column;
+  /*flex: 1 16%;*/
+  justify-content: center;
+}
+
+
+
+
+.product-image img {
+  max-width: 100%;
+}

@@ -1,0 +1,17 @@
+<mat-toolbar color="primary">
+  <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+    <mat-icon>more_vert</mat-icon>
+  </button>
+  <mat-menu #menu="matMenu">
+  <button mat-menu-item [routerLink]="['shop']">
+    <span>Webshop</span>
+  </button>
+  <button mat-menu-item [routerLink]="['overmij']">
+    <span>Over mij</span>
+  </button>
+  <button mat-menu-item [routerLink]="['reflectie']">
+    <span>Eind reflectie</span>
+  </button>
+</mat-menu>
+  <p>I-Talent Portfolio</p>
+</mat-toolbar>

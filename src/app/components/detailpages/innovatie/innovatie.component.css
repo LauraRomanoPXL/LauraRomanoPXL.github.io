@@ -1,0 +1,35 @@
+.overzicht-container{
+  display: flex;
+
+
+}
+.image-container{
+  padding-right: 2% ;
+}
+
+.inhoud-container{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.verslag-container{
+  width: 45%;
+  border: black 1px solid;
+
+}
+
+.reflectie-container{
+  width: 45%;
+  border: black 1px solid;
+}
+.image-met-onderschrift{
+  text-align: center;
+  width: 50%;
+}
+
+.image-container{
+  display: flex;
+  justify-content: center;
+
+}
