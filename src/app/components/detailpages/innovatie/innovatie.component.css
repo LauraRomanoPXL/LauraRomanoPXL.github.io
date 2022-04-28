@@ -9,27 +9,35 @@
 
 .inhoud-container{
   display: flex;
+
   justify-content: space-between;
 
 }
 
 .verslag-container{
   width: 45%;
-  border: black 1px solid;
+  height: 500px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin-left: 10px;
 
 }
 
 .reflectie-container{
   width: 45%;
-  border: black 1px solid;
+  margin-right: 10px;
+
 }
 .image-met-onderschrift{
   text-align: center;
-  width: 50%;
 }
 
 .image-container{
   display: flex;
   justify-content: center;
+}
 
+.titel{
+  display:flex;
+  justify-content: space-around;
 }

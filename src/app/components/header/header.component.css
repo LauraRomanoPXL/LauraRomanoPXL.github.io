@@ -5,3 +5,10 @@ ul{
 li{
   display: inline;
 }
+mat-toolbar{
+  background-color: #2a52ff;
+  color: white;
+}
+/*p{*/
+/*  color: white;*/
+/*}*/
